@@ -57,37 +57,39 @@
 
     .mg-top{
         margin-top: 0.5rem;
-
     }
 
+    .mg-bottom{
+        margin-bottom: 0.5rem;
+    }
 
-    /* En la sección PRINCIPAL está la FOTO DE LAS OLIVAS y el título 
+    .altura{
+        height: 400px;
+    }
+
+/* En la sección PRINCIPAL está la FOTO DE LAS OLIVAS y el título*/ 
     section#principal {
-        grid-area: principal;
         background-image: url(../img/fondo.jpg);
         background-size: cover;
         background-position: center;
-        height: 300px;
+        height: 400px;
         width: auto;
         display: flex;
         justify-content: center;
         align-items: center;
-    }
-
-    section#principal img {
-        width: 100%;
-        height: auto;
-
-    }
-
+    }      
+    
     section#principal h1 {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         text-shadow: 2px -1px 1px rgb(107, 3, 62);
         color: #b9f641;
         font-size: 80px;
-        font-weight: bolder;
+        font-weight: bolder;  
+    }   
+    
+
+
+
        
-    } */
 
     /* En la sección IMG tengo: el título, las TRES IMÁGENES y sus párrafos 
     section#img {
