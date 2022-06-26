@@ -17,9 +17,23 @@
         background-color:#b9f641;
     }
 
+    .bg-gris{
+        background-color: #e7ecd9;
+    }
+
     .tx-white{
         color:white;
         font-size: 22px;
+        font-weight: bold;
+    }
+
+    .title{
+        font-weight: bold;
+        text-shadow: -1px 1px #32268b;
+    }
+
+    .nav-link:hover{
+        color:#32268b;
     }
 
     .tx-20{
@@ -29,6 +43,21 @@
     .espacio{
         padding-left: 0.5rem;
         padding-right: 0.5rem;
+    }
+
+    .pdTopBottom{
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .mgLR{
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+
+    .mg-top{
+        margin-top: 0.5rem;
+
     }
 
 
