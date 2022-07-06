@@ -1,0 +1,82 @@
+.bg-green {
+    background-color: #6b8e23;
+}
+
+.bg-oliva {
+    background-color: #b9f641;
+}
+
+.bg-gris {
+    background-color: #e7ecd9;
+}
+
+.tx-white {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* lo usé en el nav*/
+
+.title {
+    font-weight: bold;
+    text-shadow: -1px 1px #32268b;
+}
+
+/*lo usé en los títulos*/
+
+.nav-link:hover {
+    color: #32268b;
+}
+
+.tx-20 {
+    font-size: 20px;
+}
+
+/*lo usé en párrafos*/
+
+.espacio {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.pdTopBottom {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.mgLR {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.mg-top {
+    margin-top: 0.5rem;
+}
+
+.mg-bottom {
+    margin-bottom: 0.5rem;
+}
+
+.altura {
+    height: 400px;
+}
+
+/* En la sección PRINCIPAL está la FOTO DE LAS OLIVAS y el título*/
+section#principal {
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        text-shadow: 2px -1px 1px rgb(107, 3, 62);
+        color: #b9f641;
+        font-size: 80px;
+        font-weight: bolder;
+    }
+}
