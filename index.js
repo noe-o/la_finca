@@ -1,38 +1,16 @@
-function reservar() {
-  for (i = 0; i < 3; i++) {
+function compra() {
     let quiere = prompt(
-      '¿Quiere reservar una mesa para el almuerzo del domingo? Responder: si/no'
-    );
-    if (quiere == 'si') {
-      class Mesa {
-        constructor(nombre, celular, comensales) {
-          this.nombre = nombre;
-          this.celular = celular;
-          this.comensales = comensales;
-        }
-      }
-      const mesas = [];
-      mesas.push(
-        new Mesa(
-          prompt('Nombre y apellido:'),
-          prompt('Celular de contacto:'),
-          parseInt(prompt('Número de comensales:'))
-        )
-      );
-      console.log(mesas);
-      alert(
-        'El nombre de la persona que reserva es: ' +
-          mesas[i].nombre +
-          ', el celular es: ' +
-          mesas[i].celular +
-          ', la cantidad de comensales es: ' +
-          mesas[i].comensales
-      );
-      let otra = prompt('¿Desea hacer otra reserva? Responder:si/no');
-      if (otra == 'no') {
+      '¿Quiere comprar algún producto de la finca? Responder: sí/no');
+      quiere=lowercase(quiere);
+
+    if (quiere == 'si'||quiere=='sí') {
+      let elige=prompt('Elije uno de los productos de la lista:'+'1. Aceites de oliva virgen extra');
+      if (elige==1 || elige==2)
+      let otro = prompt('¿Desea elegir otro producto? Responder: sí/no');
+      if (otro == 'no') {
         alert('Ok, nos veremos la próxima');
         i = 2;
-      } else if (otra != 'no' && otra != 'si') {
+      } else if (otro != 'no' && otro != 'si') {
         alert('No pudimos procesar su respuesta');
         i = 2;
       }
@@ -45,4 +23,4 @@ function reservar() {
     }
   }
 }
-reservar();
+compra();
