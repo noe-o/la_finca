@@ -22,5 +22,4 @@ function compra() {
       i = 2;
     }
   }
-}
 compra();
